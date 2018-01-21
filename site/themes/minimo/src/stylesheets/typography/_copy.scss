@@ -1,0 +1,36 @@
+p {
+  margin: 0 0 1.5em;
+}
+
+cite,
+dfn,
+em,
+i {
+  font-style: italic;
+}
+
+blockquote {
+  margin: 0 1.5em;
+}
+
+address {
+  margin: 0 0 1.5em;
+}
+
+@import 'codes';
+
+abbr,
+acronym {
+  border-bottom: 1px dotted $color__black;
+  cursor: help;
+}
+
+ins,
+mark {
+  background: $color__black;
+  text-decoration: none;
+}
+
+big {
+  font-size: 125%;
+}

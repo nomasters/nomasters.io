@@ -1,0 +1,11 @@
+<header class='header-container'>
+  <div class='header entry-header'>
+    <div class='header-info'>
+      <h1 class='title'>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}
+      </h1>
+      {{ partial "header/subtitle" . }}
+    </div>
+    {{ partial "entry/meta" . }}
+  </div>
+</header>

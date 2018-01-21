@@ -15,3 +15,7 @@
 
 # hugo
 site/public*
+
+#terraform
+terraform/.terraform/
+*.tfstate

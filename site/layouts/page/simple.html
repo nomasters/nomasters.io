@@ -1,0 +1,7 @@
+{{ partial "header" . }}
+<main id='main' class='main'>
+  <article lang='{{ .Params.lang | default .Lang }}' class='entry'>
+    {{ partial "entry/content" . }}
+  </article>
+</main>
+{{ partial "footer" . }}

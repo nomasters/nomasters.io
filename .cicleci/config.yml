@@ -11,3 +11,12 @@ jobs:
       - checkout
       - run: go get -v github.com/gohugoio/hugo
       - run: python --version
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build:
+          context: org-global
+          filters:
+            branches:
+              only: master

@@ -11,8 +11,8 @@ jobs:
       - checkout
       - run: wget https://github.com/gohugoio/hugo/releases/download/v0.34/hugo_0.34_Linux-64bit.deb
       - run: sudo dpkg -i hugo_0.34_Linux-64bit.deb
-      - run: hugo version
       - run: sudo pip install awscli
+      - run: scripts/deploy.sh
 workflows:
   version: 2
   build:

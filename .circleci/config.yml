@@ -6,10 +6,15 @@ jobs:
   build:
     docker:
       - image: circleci/python:3.6.4
+        environmnet:
+          HUGO_URL: https://github.com/gohugoio/hugo/releases/download/v0.34/hugo_0.34_Linux-64bit.deb
+          HUGO_DEB: hugo_0.34_Linux-64bit.deb
     working_directory: ~/repo
     steps:
       - checkout
-      - run: apt-get install hugo
+      - run: curl -O $HUGO_URL
+      - run: sudo dpkg -i $HUGO_DEB
+      - run: hugo version
       - run: pip install awscli
 workflows:
   version: 2

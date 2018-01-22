@@ -1,0 +1,13 @@
+# Golang CircleCI 2.0 configuration file
+#
+# This is used to install the latest version of 
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/golang:1.9
+    working_directory: /go/src/github.com/nomasters/dotio
+    steps:
+      - checkout
+      - run: go get -v github.com/gohugoio/hugo
+      - run: ls

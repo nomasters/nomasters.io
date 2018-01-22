@@ -10,4 +10,4 @@ jobs:
     steps:
       - checkout
       - run: go get -v github.com/gohugoio/hugo
-      - run: ls
+      - run: python --version

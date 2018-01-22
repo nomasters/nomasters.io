@@ -9,7 +9,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: sudo apt-get install hugo
+      - run: apt-get install hugo
       - run: pip install awscli
 workflows:
   version: 2

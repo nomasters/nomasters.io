@@ -9,7 +9,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: curl -O https://github.com/gohugoio/hugo/releases/download/v0.34/hugo_0.34_Linux-64bit.deb
+      - run: wget https://github.com/gohugoio/hugo/releases/download/v0.34/hugo_0.34_Linux-64bit.deb
       - run: sudo dpkg -i hugo_0.34_Linux-64bit.deb
       - run: hugo version
       - run: pip install awscli

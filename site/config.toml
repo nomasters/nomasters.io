@@ -17,7 +17,7 @@ pygmentsCodefences = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = "coming soon"
+description = "nomasters is an blog documenting the exploration of living life on your own terms."
 title404 = "Nothing's here!"
 
 [params.assets]

@@ -1,0 +1,186 @@
+body {
+	font-family: Hack, Menlo, Monaco, Ubuntu Mono, monospace;
+  font-size: 14px;
+  color: #ddd;
+  background: #222;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, p, code, kbd, tt, var{
+  font-size: 14px;
+}
+
+article h1, h2, h3, h4, h5, h6 {
+  padding: 20px 0 20px 0
+}
+
+
+blockquote {
+    border-left: 5px solid #ddd;
+    margin: 0;
+    padding: 0 20px 0 20px;
+    margin: 0 0 40px 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 700px;
+  align-items: center;
+}
+
+header {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+footer.footer-container {
+  align-self: left;
+  padding-top: 120px;
+}
+
+div.site {
+  align-items: center;
+  width: 100%;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #999;
+}
+
+a:visited {
+  color: #eee;
+}
+
+code {
+  color: #ddd;
+  background: #333;
+}
+
+pre {
+  background: #333;
+}
+
+.main-menu a, .social-menu a {
+    color: #ddd;
+}
+
+.main-menu-container {
+    margin-top: 0em;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  padding: 0 0 100px 0;
+  margin: 0;
+}
+
+nav ul li {
+  font-size: 14px;
+  display: inline-block;
+  text-transform: lowercase;
+}
+
+nav ul li.logo a {
+  text-decoration:none;
+}
+
+nav ul li a:hover {
+  border-bottom: none;
+  color: #999;
+}
+
+.title {
+    margin-bottom: 0;
+    text-transform: none;
+    color: #ddd;
+    padding-bottom: 0;
+}
+
+main {
+  align-self: left;
+}
+
+div.meta {
+  padding-right: 10px;
+}
+
+.list-item-header h3, header{
+  padding: 0;
+  margin: 0;
+}
+
+article li {
+  list-style-type: square;
+}
+
+
+.list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+
+.list-item article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+
+/* 
+ Hack Font
+*/
+
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-regular.woff2?sha=e700a30') format('woff2'), url('fonts/hack-regular.woff?sha=e700a30') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-bold.woff2?sha=e700a30') format('woff2'), url('fonts/hack-bold.woff?sha=e700a30') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-italic.woff2?sha=e700a30') format('woff2'), url('fonts/hack-italic.woff?sha=e700a30') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-bolditalic.woff2?sha=e700a30') format('woff2'), url('fonts/hack-bolditalic.woff?sha=e700a30') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}

@@ -1,0 +1,17 @@
+name = "Minimus"
+license = "UNLICENSE"
+licenselink = "https://github.com/MunifTanjim/minimo/blob/master/LICENSE"
+description = "dead simple theme for nomasters.io"
+homepage = "https://nomasters.io"
+tags = [
+  "blog",
+  "minimal",
+  "minimalist",
+  "responsive"
+]
+features = []
+min_version = 0.28
+
+[author]
+  name = "n2p5"
+  homepage = "https://nomasters.io"

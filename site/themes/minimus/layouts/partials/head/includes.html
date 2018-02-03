@@ -1,0 +1,8 @@
+<link rel='icon' href='{{ ( or .Site.Params.assets.favicon "favicon.ico" ) | relURL }}'>
+
+<!-- <link rel='stylesheet' href='{{ print "/assets/css/mini-dark.min.css" | relURL  }}'> -->
+<link rel='stylesheet' href='{{ print "/assets/css/core.css" | relURL  }}'>
+
+{{- range .Site.Params.assets.customCSS -}}
+  <link rel='stylesheet' href='{{ . | relURL }}'>
+{{- end -}}

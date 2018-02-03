@@ -8,6 +8,7 @@ body {
 .title, h1, h2, h3, h4, h5, h6 {
   font-family: Hack, Menlo, Monaco,Ubuntu Mono, monospace;
   font-size: 14px;
+  color: #ddd;
 }
 
 header#header {

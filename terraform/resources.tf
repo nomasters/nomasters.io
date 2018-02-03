@@ -3,5 +3,5 @@ data "aws_acm_certificate" "site" {
 }
 
 data "aws_route53_zone" "site" {
-  name = "nomasters.io."
+  name = "${var.site["fqdn"]}"
 }

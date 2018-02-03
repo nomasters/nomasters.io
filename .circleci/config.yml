@@ -1,6 +1,3 @@
-# Golang CircleCI 2.0 configuration file
-#
-# This is used to install the latest version of 
 version: 2
 jobs:
   build:

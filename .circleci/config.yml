@@ -2,12 +2,13 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/python:3.6.4
+      - image: circleci/python:2.7.14-stretch
     working_directory: ~/repo
     steps:
       - checkout
       - run: wget https://github.com/gohugoio/hugo/releases/download/v0.34/hugo_0.34_Linux-64bit.deb
       - run: sudo dpkg -i hugo_0.34_Linux-64bit.deb
+      - run: sudo pip install awscli
       - run: pip install awscli --upgrade --user
       - run: scripts/deploy.sh
 workflows:

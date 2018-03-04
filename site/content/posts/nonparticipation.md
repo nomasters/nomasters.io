@@ -1,6 +1,6 @@
 ---
-title: "Nonparticipation"
-date: 2018-03-04T22:32:41-06:00
+title: "nonparticipation"
+date: 2018-03-04T11:00:00-06:00
 draft: false
 ---
 

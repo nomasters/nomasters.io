@@ -4,6 +4,28 @@ resource "aws_iam_user" "circleci" {
   force_destroy = "true"
 }
 
+resource "aws_iam_policy" "manage_cdn_cache" {
+  name        = "invalidate_cache_cloudfront"
+  path        = "/"
+  description = ""
+  policy = <<EOF
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "cloudfront:CreateInvalidation"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+EOF
+
+}
+
+
 resource "aws_iam_policy" "write_to_site_bucket" {
   name        = "write_to_${var.site["bucket"]}_bucket"
   path        = "/"
@@ -72,6 +94,12 @@ resource "aws_iam_policy" "write_to_killcord_site_bucket" {
     ]
 }
 EOF
+}
+
+resource "aws_iam_policy_attachment" "circleci-cdn-cache" {
+  name       = "manage_cdn_cache"
+  users      = ["${aws_iam_user.circleci.name}"]
+  policy_arn = "${aws_iam_policy.manage_cdn_cache.arn}"
 }
 
 resource "aws_iam_policy_attachment" "circleci" {

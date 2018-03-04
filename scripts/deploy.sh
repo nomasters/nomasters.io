@@ -3,13 +3,13 @@
 # exit on error
 set -e
 
-export AWS_ACCESS_KEY_ID=$TF_VAR_nomasters_site_aws_access_key
-export AWS_SECRET_ACCESS_KEY=$TF_VAR_nomasters_site_aws_secret_key
-export AWS_REGION=us-east-1
-
 DIR=site
 BUCKET=s3://nomasters.io
+DIST_ID=$NOMASTERS_CDN_DIST_ID
+CACHE_ID=`date +%s`
+FORMATTED_JSON='{"Paths": {"Quantity": 1,"Items": ["/*"]},"CallerReference":"'${CACHE_ID}'"}'
 
 cd $DIR
 hugo
 aws s3 sync public/ $BUCKET --acl public-read
+aws cloudfront create-invalidation --distribution-id $DIST_ID --invalidation-batch "$FORMATTED_JSON"

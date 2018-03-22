@@ -22,7 +22,7 @@ This isn't a new concept on its surface. In fact, [Snowden actually used a deadm
 
 ### public audience ipfs, ethereum, and trust models
 
-It really comes down to trust models. The initial release of killcord specifically focuses on ***public audience disclosures*** The reason killcord uses IPFS and ethereum is due to the resiliency and anti-censorship guarantees each service offers. 
+It really comes down to trust models. The initial release of killcord specifically focuses on ***public audience disclosures***. The reason killcord uses IPFS and ethereum is due to the resiliency and anti-censorship guarantees each service offers. 
 
 With IPFS, once data is added to the network, it is virtually undeletable, unless every node participating in seeding the data is taken off-line (or the seed is universally purged). When it comes to resiliency IPFS truly shines. In the case of killcord, you could actually run N number of IFPS nodes specifically configured to host the seed for the killcord project on a wide range of hardware, from raspberry Pis to cloud providers. As long as the location of those nodes remain hard to shut down, the IPFS storage for a killcord remains incredibly resilient. In the hypothetical Snowden example, spreading the IPFS seed nodes across multiple regions around the world, and even better, encouraging the community to seed the data as well, adds to the resiliency of the availability of the payload. You can think of IPFS as a really interesting new take on bittorrent style seeding.
 
@@ -42,15 +42,15 @@ Because the publisher runs privately with no external interaction, it can run fr
 
 ### whats next
 
-So what's next with this project? Four answers to that: private audience, more storage and backend providers, and easier install tools, and a GUI.
+So what's next with this project? Four answers to that: private audience, more storage and backend providers, easier install tools, and a GUI.
 
 ### private audience
 
-Though killcord is designed to be as resilient as possible, very few folks will ever want or need public disclosure deadman's switch software. It will always be baked into the core of killcord. With solid initial feedback and brainstorming with folks close to me a private audience feature seems to be at the top of the list. This is the idea that instead of releasing a payload publicly, your release has a targeted audience. One could imagine this being useful for activist groups with co-organizers, business partners and investors, or passing down documents to loved ones. I think the idea is really cool and I've got some ideas on what needs to be added to killcord to make this happen, which brings me to the next topic: storage and backend options.
+Though killcord is designed to be as resilient as possible, very few folks will ever want or need public disclosure deadman's switch software; it will always be baked into the core of killcord. With solid initial feedback and brainstorming with folks close to me a private audience feature seems to be at the top of the list. This is the idea that instead of releasing a payload publicly, your release has a targeted audience. One could imagine this being useful for activist groups with co-organizers, business partners and investors, or passing down documents to loved ones. I think the idea is really cool and I've got some ideas on what needs to be added to killcord to make this happen, which brings me to the next topic: storage and backend options.
 
 ### storage and backend providers
 
-With private audience features a project owner will want to identify their risk and threat models and this means that choosing a storage and backend that works best for their needs will be important. Imagine using [keybase](https://keybase.io/), [perkeep](https://perkeep.org/), [upspin](https://upspin.io/), [dropbox](https://www.dropbox.com/), or [google drive]() as the storage backend. Imagine using another private backend self-hosted on your own servers or on a cloud provider like aws, or even just a simple versioned state-file in github, s3. I find the idea pretty exciting and I think th existing patterns of killcord would work quite nicely with pluggable providers
+With private audience features a project owner will want to identify their risk and threat models and this means that choosing a storage and backend that works best for their needs will be important. Imagine using [keybase](https://keybase.io/), [perkeep](https://perkeep.org/), [upspin](https://upspin.io/), [dropbox](https://www.dropbox.com/), or [google drive](https://en.wikipedia.org/wiki/Google_Drive) as the storage backend. Imagine using another private backend self-hosted on your own servers or on a cloud provider like aws, or even just a simple versioned state-file in github, s3. I find the idea pretty exciting and I think th existing patterns of killcord would work quite nicely with pluggable providers
 
 ### easier install tools
 

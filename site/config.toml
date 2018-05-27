@@ -5,7 +5,7 @@ title = "nomasters"
 
 theme = "minimus"
 
-Paginate = 5
+Paginate = 10000
 preserveTaxonomyNames = true
 
 enableRobotsTXT = true # generate robots.txt

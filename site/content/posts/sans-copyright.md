@@ -7,7 +7,7 @@ draft: false
 > Anything that prevents you from being friendly, a good neighbor, is a terror tactic.
 > -- Richard Stallman
 
-You might have noticed this site is [uncopyrighted](https://nomasters.io/uncopyright/), and I thought I'd explore a bit my reasoning behind my decision and the underlying principals that brought me to declare that all content on this site is in the public domain. 
+You might have noticed this site is [uncopyrighted](https://nomasters.io/uncopyright/), and I thought I'd explore a bit my reasoning behind my decision and the underlying principles that brought me to declare that all content on this site is in the public domain. 
 
 The modern concept of intellectual property is puzzlingly complex. The topic operates of certain assumptions about human nature, innovation, and the role of the state in the market that I feel are worth questioning, and, if you are willing to follow me down the rabbit hole, one worth opting out of. 
 

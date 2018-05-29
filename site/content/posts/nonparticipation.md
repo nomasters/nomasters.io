@@ -4,11 +4,11 @@ date: 2018-03-04T11:00:00-06:00
 draft: false
 ---
 
-As I've attempted to live on first principals, one of the most powerful tools at my disposal is the ability to opt out of participating in systems that I feel are harmful, unjust, induce deep skepticism, or give power to those who I feel gain such power undeservedly. 
+As I've attempted to live on first principles, one of the most powerful tools at my disposal is the ability to opt out of participating in systems that I feel are harmful, unjust, induce deep skepticism, or give power to those who I feel gain such power undeservedly. 
 
-Nonparticipation is a powerful and transformative tool. It is a pillar of self-governance. Exploring this principal has had a transformative effect in my life. This idea is so powerful, in fact, that it can seem a bit bewildering in its simplicity. The power in nonparticipation hides in the fact that power relies on participation. If you choose to not participate, you choose to not give power to those who mean to take it.
+Nonparticipation is a powerful and transformative tool. It is a pillar of self-governance. Exploring this principle has had a transformative effect in my life. This idea is so powerful, in fact, that it can seem a bit bewildering in its simplicity. The power in nonparticipation hides in the fact that power relies on participation. If you choose to not participate, you choose to not give power to those who mean to take it.
 
-A very visible example of nonparticipation exists with dietary restrictions. Vegetarians opt out of participating in the meat industry. Vegans opt out of any animal product farming entirely. While the reasoning for such decisions range widely from health to ethics, the collective nonparticipation allows these folks to live in accordance to their principals while still eating food required for sustaining existence.
+A very visible example of nonparticipation exists with dietary restrictions. Vegetarians opt out of participating in the meat industry. Vegans opt out of any animal product farming entirely. While the reasoning for such decisions range widely from health to ethics, the collective nonparticipation allows these folks to live in accordance to their principles while still eating food required for sustaining existence.
 
 One powerful example in my life is my nonparticipation in social media. Years ago I deleted my facebook account. When I decided to move out of the US, I also deleted my linkedin, twitter, and instagram accounts. This represents a liberation from the private surveillance systems constructed in the name of behavioral analytics that is sold to advertisers. A sort of voyeuristic [panopticon](https://en.wikipedia.org/wiki/Panopticon) that exploits our weakness for [variable reward](https://en.wikipedia.org/wiki/Reinforcement) and pushes us to participate in a strange sort of corporate surveillance that is ever consuming in our lives.
 

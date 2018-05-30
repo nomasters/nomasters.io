@@ -55,7 +55,7 @@ This might seem super obvious to some. I know it seems obvious to me now, but it
 It's even spilled over into non-personal stuff. For this site and [killcord.io](https://killcord.io):
 
 - I don't use use any analytics tools to track readers (I don't even run javascript, check out the source code).
-- I don't keep access logs for s3 and cloudfront (you can check out my [terraform config here](https://github.com/nomasters/nomasters.io/tree/master/terraform))
+- I don't keep access logs for s3 and cloudfront (you can check out my [terraform config here](https://github.com/nomasters/nomasters.io/tree/master/terraform)).
 - I have no idea who or how many folks visits my sites (I'm completely fine with that).
 
 I'm not claiming to have figured this all out (I'm only one year in). I'm also not claiming that I've discovered some great truth. What I can tell you is that I've learned that trusting my intuition and introspecting honestly has been far more valuable for my health and happiness than any amount of data ever collected could try to accomplish.

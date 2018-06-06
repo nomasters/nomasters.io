@@ -39,7 +39,7 @@ The most important aspect of [uncopyrighting](https://nomasters.io/uncopyright/)
 
 Selected sources for diving in a bit deeper:
 
-- [Zen habits uncopyright](https://zenhabits.net/uncopyright/)
+- [Zen habits' uncopyright](https://zenhabits.net/uncopyright/)
 - [The unlicense](https://en.wikipedia.org/wiki/Unlicense)
 - [Public Domain (wikipedia)](https://en.wikipedia.org/wiki/Public_domain)
 - [Creative Commons](https://creativecommons.org/)

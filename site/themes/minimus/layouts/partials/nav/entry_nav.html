@@ -16,8 +16,7 @@
     {{- if .PrevInSection -}}
     <div class='prev-entry'>
       <a href='{{ .PrevInSection.Permalink | relURL }}'>
-        previous
-        </br>{{- .PrevInSection.Title -}}
+        (previous post) ->&nbsp;{{- .PrevInSection.Title -}}
       </a>
     </div>
     {{- end -}}
@@ -25,9 +24,7 @@
     {{- if .NextInSection -}}
     <div class='next-entry'>
       <a href='{{ .NextInSection.Permalink | relURL }}'>
-        next
-        </br>
-        {{- .NextInSection.Title -}}
+        (next post) ----->&nbsp;{{- .NextInSection.Title -}} 
       </a>
     </div>
     {{- end -}}

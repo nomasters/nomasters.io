@@ -88,7 +88,6 @@ nav ul {
 }
 
 nav ul li {
-  font-size: 14px;
   display: inline-block;
   text-transform: lowercase;
 }
@@ -102,10 +101,14 @@ nav ul li {
 }
 
 .title {
-    margin-bottom: 0;
+    margin-bottom: 0px;
     text-transform: none;
     color: #ddd;
     padding-bottom: 0;
+}
+
+.type-posts .list-header{
+  margin-bottom: 20px;
 }
 
 main {

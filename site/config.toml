@@ -69,12 +69,6 @@ weight = -10
 identifier = "posts"
 url = "/posts"
 
-[[menu.main]]
-name = "projects"
-weight = -10
-identifier = "projects"
-url = "https://github.com/nomasters"
-
 [blackfriday]
 hrefTargetBlank = true
 

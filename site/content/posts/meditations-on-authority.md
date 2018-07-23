@@ -1,7 +1,7 @@
 ---
-title: "Meditations on Authority"
-date: 2018-07-21T13:35:05-06:00
-draft: true
+title: "meditations on authority"
+date: 2018-07-23T07:30:05-06:00
+draft: false
 ---
 
 > That is what I have always understood to be the essence of anarchism: the conviction that the burden of proof has to be placed on authority, and that it should be dismantled if that burden cannot be met. 

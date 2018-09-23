@@ -1,7 +1,7 @@
 ---
 title: "on avoiding boredom"
 date: 2018-09-23T008:00:00-06:00
-draft: true
+draft: false
 ---
 
 > Boring is an attitude, not the truth. Possibility is where you decide it is.

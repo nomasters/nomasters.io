@@ -1,6 +1,6 @@
 ---
 title: "on avoiding boredom"
-date: 2018-09-23T008:00:00-06:00
+date: 2018-09-23T08:00:00-06:00
 draft: false
 ---
 

@@ -20,3 +20,5 @@ site/public*
 terraform/.terraform/
 *.tfstate
 *.tfstate.backup
+
+ideas.md

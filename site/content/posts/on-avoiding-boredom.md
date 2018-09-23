@@ -1,0 +1,38 @@
+---
+title: "on avoiding boredom"
+date: 2018-09-25T10:00:00-06:00
+draft: true
+---
+
+> Boring is an attitude, not the truth. Possibility is where you decide it is.
+> -- Seth Godin
+
+I think we, as humans, have a natural inclination to want to avoid boredom. And, its easier now than ever to reach for the dopamine infused mental junk food in an attempt to satiate our desires. Its hard to resist when corporations pore endless amounts of money into building the games, apps, platforms, and media by [hiring scientists to systems to modify our behavior and trigger addiction](https://www.1843magazine.com/features/the-scientists-who-make-apps-addictive). 
+
+In truth, I don't think that in that inclination is really about avoiding boredom at all costs. I think that inclination is to do something; to feel something; to participate; to engage. There is the low effort path, the dopamine hit of instant gratification, and there is high effort path, the slow release of serotonin that comes from engaging in something deeply interesting and fulfilling.
+
+We need both. Risk and reward are an important part of how how brains work, but I feel that we live in a time in which getting the hit that comes from instant gratification obfuscates a deeper connection we can have with ourselves and the world around us. There are deeply interesting things hidden beneath the surface of boring things everywhere. It takes persistence and introspection to find them, but once you find a way to to acclimate yourself to this form of discovery, your world will never be the same. I honestly can't tell you why I find what I find deeply interesting, to me it just... is. I can tell you that embracing the hidden contentment in boring stuff will put you on a path you never could have imagined otherwise.
+
+## a little back story
+
+Every once in a while someone makes the mistake of asking me what I do for a living. I inevitably jump through the mental gymnastics that is [theory of mind](https://en.wikipedia.org/wiki/Theory_of_mind) to try to find an approach to answering that question that won't alienate, bewilder, or bore the person. More times than not, I don't quite fully make the leap and have to ask, "does that make sense?" or "are you still with me?". The honest and abstract answer is far too opaque: I've found what appears to be a financially sustainable path to continuously learn while working on deeply interesting questions and technical problems.
+
+The more concrete answer, at this point in time, is very technical, and to most, quite boring. For money, I run my own solo shop as a contractor and consultant for a small number of clients. I work on a range of cloud infrastructure and architecture domains, primarily based around data pipe lines, automation, security, and data backends. These days I primary work with small data science teams to help engineer and maintain the infrastructure to support their work. Before moving to Costa Rica, I was the CTO at a series A funded startup, which put a lot of interesting problems on my plate, both operationally and architecturally. For my personal work, I half joke that I'm working on "cyberpunk vanity projects". These revolve around subjects that I find deeply interesting such as cryptography, decentralized systems, and anti-censorship. These are amateur projects in the [classic sense of the word](https://en.wikipedia.org/wiki/Amateur).
+
+In future posts I'd like to explore what brought my family and me to Costa Rica; why I've chosen not to work more than 24-32 hours per week for others; and how and why I've run my own contract and consulting business (something I've been doing in various forms since 2010). But not today. Today is about boredom and the joys hidden inside.
+
+## embracing the tedious stuff
+
+So, why am I talking about boredom? What I'm really mean is that under the veil of boredom avoidance, what I think we are really trying to avoid is tedious and difficult work. I think there is a reasonable parallel to physical fitness that going to shoehorn here. If you put effort into your fitness, over time, you can accomplish things you couldn't accomplish otherwise. Maybe one day, with effort, you'll be able to run a marathon, deadlift 500 lbs, or hold a proper astavakrasan pose. One day, you might even make it look easy. But to pull off those skills, you had to embrace the process of purposefully making yourself uncomfortable to grow and to change. You had  to keep your mind focused on the bigger picture even when you hit setbacks or when it got boring from time to time.
+
+For instance, I avoided running until my mid twenties. Up to that point in my life, I'd never run more than three miles at one time. It wasn't until a peer of mine was looking for a training buddy for a half marathon that I decided I'd dive it a try. A group of us started training (we were all beginners). Within a couple of weeks of training, everyone dropped out but me. But something had clicked and I knew I had to listen to it. At first, it just felt like I was torturing myself, but after pushing through I started learning something about myself. I realized I could run more than 3 miles at a time. I realized I enjoyed geeking out about breathing techniques, stretching, and water and energy consumption. I also learned around the four mile mark my first dose of [runner's high](https://en.wikipedia.org/wiki/Runner%27s_high) would kick in (something I think most people never experience because they never run more than a 5k). Before this training, if I ran, it was always on a treadmill. I simply thought, like most folks, that I hated running. Now I was running outside, things were clicking, and my entire perspective changed. I may have been a late bloomer, but I'd somehow become a runner. Three half marathons, and one full marathon later, I still love running (and I still hate running on a treadmill).
+
+Persistent effort over time helps you develop skills that will change you and your ability to interact with the world. And I don't know if any of us know what or when something is going to just "click", but when it does: embrace it and dive deep. We have to make opportunities to systematically push our discomfort and engage with tedious stuff so that we can discover what we truly find fascinating.
+
+Personally, I spend a considerable amount of time dedicated to learning new things. Maybe that's exploring the depths [a really cool data analysis library](https://pandas.pydata.org/), [reading the source code for an implementations of ed25519](https://github.com/golang/crypto/blob/master/ed25519/ed25519.go), or [researching how to get GPUs working with TensorFlow in docker](https://github.com/NVIDIA/nvidia-docker). In a strange way I've developed a blurry line between work and pleasure. In fact, I've found that by keeping that line blurry, I reach an interesting feedback loop in which I'm able to slowly evolve my work for clients out of deep interests I've developed on my own.
+
+### conclusion
+
+Make time to try boring, tedious, and difficult stuff you aren't sure you'll like. At worst, you don't get a lot out of it, but on the bright side you've avoided the addictive boredom-avoiding time wasters that would have otherwise filled that time. At best, you'll discover a happy little accident of a topic or hobby that takes you down a rabbit hole of new self discovery. These random joys can't be predicted, but they can be cultivated through a raw numbers game. The more comfortable you get with making yourself uncomfortable, the more opportunities you'll have for the universe to pleasantly surprise you.
+
+

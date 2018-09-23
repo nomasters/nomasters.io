@@ -13,7 +13,7 @@ In truth, I don't think that the inclination is really about avoiding boredom at
 
 We need both. Risk and reward are an important part of how our brains work, but I feel that we live in a time in which getting the hit that comes from instant gratification obfuscates a deeper connection we can have with ourselves and the world around us. There are deeply interesting things hidden beneath the surface of boring things everywhere. It takes persistence and introspection to find them, but once you find a way to to acclimate yourself to this form of discovery, your world will never be the same. I honestly can't tell you why I find what I find deeply interesting, to me it just... is. I can tell you that embracing the hidden contentment in boring stuff will put you on a path you never could have imagined otherwise.
 
-## a little back story
+### a little back story
 
 Every once in a while, someone makes the mistake of asking me what I do for a living. I inevitably jump through the mental gymnastics that compose [theory of mind](https://en.wikipedia.org/wiki/Theory_of_mind) to try to find an approach to answering that question that won't alienate, bewilder, or bore the person. More times than not, I don't quite fully make the leap and have to ask, "Does that make sense?" or "Are you still with me?". The honest and abstract answer is far too opaque: I've found what appears to be a financially sustainable path to continuously learn while working on deeply interesting questions and technical problems.
 
@@ -21,7 +21,7 @@ The more concrete answer at this point in time is very technical, and to most, q
 
 In future posts I'd like to explore what brought my family and me to Costa Rica; why I've chosen not to work more than 24-32 hours per week for others; and how and why I run my own contract and consulting business (something I've been doing in various forms since 2010). But not today. Today is about boredom and the joys hidden inside.
 
-## embracing the tedious stuff
+### embracing the tedious stuff
 
 So, why am I talking about boredom? What I really mean is that under the veil of boredom avoidance, what I think we are really trying to avoid is tedious and difficult work. I think there is a reasonable parallel to physical fitness that I'm going to shoehorn here. If you put effort into your fitness over time, you can accomplish things you couldn't accomplish otherwise. Maybe one day, with effort, you'll be able to run a marathon, deadlift 500 lbs, or hold a proper astavakrasana pose. One day, you might even make it look easy. But to pull off those skills you had to embrace the process of purposefully making yourself uncomfortable, to grow and to change. You had to keep your mind focused on the bigger picture even when you hit setbacks or when it got boring from time to time.
 

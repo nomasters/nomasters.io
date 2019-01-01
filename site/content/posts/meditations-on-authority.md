@@ -4,7 +4,7 @@ date: 2018-07-23T07:30:05-06:00
 draft: false
 ---
 
-> That is what I have always understood to be the essence of anarchism: the conviction that the burden of proof has to be placed on authority, and that it should be dismantled if that burden cannot be met. 
+> That is what I have always understood to be the essence of anarchism: the conviction that the burden of proof has to be placed on authority, and that it should be dismantled if that burden cannot be met.
 > -- Noam Chomsky
 
 I was eleven when I stopped believing in god. I have a vivid memory of the feeling. It was existentially disorienting. It was like I had stopped clinging to the side of a cliff and I was in free-fall. If there was no god, who was in charge? It was as though I'd uncovered a deep secret that no one around me talked about. It was something I'd kept to myself for a long time. I grew up in the Deep South and though my immediate family wasn't particularly religious (though we did attend church every Sunday), my extended family and the community at large certainly were.
@@ -19,7 +19,7 @@ Authority, as described on [Wikipedia](https://en.wikipedia.org/wiki/Authority),
 
 ### questioning authority
 
-As one who dabbles in anarchist thought, I'd quickly found the useful tool of [questioning authority](https://en.wikipedia.org/wiki/Question_authority). It's useful as a thought experiment and is something I've used personally to help me come to terms with my disbelief in god. For me, the question of god came down to my comfort level for living with the fundamental questions of the universe with the idea of "it seems we just don't know". It seems that the concept that we either "don't know" or "may never know" why things are the way they are, and the idea that "no one is in charge" is so terrifying to some folks that we go to great lengths to explain away the seeming order of the universe by putting a god in charge. Once I let go of the folklore, I made room to get comfortable with internalizing that "not knowing" is part of the journey, and that to claim "we know" or "we might know" or "we think we found a path to knowing" should be kept at a very high standard. Brushing up against an "I don't know" is important in the practice of introspective honesty, and it is a feeling I've come to cherish. 
+As one who dabbles in anarchist thought, I'd quickly found the useful tool of [questioning authority](https://en.wikipedia.org/wiki/Question_authority). It's useful as a thought experiment and is something I've used personally to help me come to terms with my disbelief in god. For me, the question of god came down to my comfort level for living with the fundamental questions of the universe with the idea of "it seems we just don't know". It seems that the concept that we either "don't know" or "may never know" why things are the way they are, and the idea that "no one is in charge" is so terrifying to some folks that we go to great lengths to explain away the seeming order of the universe by putting a god in charge. Once I let go of the folklore, I made room to get comfortable with internalizing that "not knowing" is part of the journey, and that to claim "we know" or "we might know" or "we think we found a path to knowing" should be kept at a very high standard. Brushing up against an "I don't know" is important in the practice of introspective honesty, and it is a feeling I've come to cherish.
 
 When I really accepted "we don't know, and that's ok", god was no longer necessary for my mental model of the universe, so over time, the thought of god grew smaller and smaller until eventually, long periods of time went by without my mind even thinking about it. And what do I think about instead? Anything.
 
@@ -50,7 +50,7 @@ Each time I hit one of these inflection points, I'd work hard to poke holes in m
 
 ### a parent and authority figure
 
-As a parent of a two-year-old, I'm in a position of authority. To apply the Chomsky litmus to this role, the burden is that as the parent, the life of my child is positively influenced by the power position I hold. My wife and I spend time nurturing a newer member of the human species. At our child's youngest and most vulnerable stages in life, my wife and I claim the most authority over this other human's life. With development, my role should naturally shift. As she gains more autonomy, my authority should diminish until eventually my authority ends as she becomes an autonomous adult. At this point, my authority is no longer legitimate and it is dismantled. 
+As a parent of a two-year-old, I'm in a position of authority. To apply the Chomsky litmus to this role, the burden is that as the parent, the life of my child is positively influenced by the power position I hold. My wife and I spend time nurturing a newer member of the human species. At our child's youngest and most vulnerable stages in life, my wife and I claim the most authority over this other human's life. With development, my role should naturally shift. As she gains more autonomy, my authority should diminish until eventually my authority ends as she becomes an autonomous adult. At this point, my authority is no longer legitimate and it is dismantled.
 
 ### conclusion
 

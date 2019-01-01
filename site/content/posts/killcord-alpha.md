@@ -4,7 +4,7 @@ date: 2018-03-21T00:00:00-06:00
 draft: false
 ---
 
-Over the past four months, I've been quietly working on a project that I'm really excited to share. It's still in its very early alpha phase and needs a healthy dose of vetting, testing, and refactoring, but I'm proud of the initial implementation and it's a starting point for an open source project that I'm excited to work on. 
+Over the past four months, I've been quietly working on a project that I'm really excited to share. It's still in its very early alpha phase and needs a healthy dose of vetting, testing, and refactoring, but I'm proud of the initial implementation and it's a starting point for an open source project that I'm excited to work on.
 
 ### the background
 
@@ -20,7 +20,7 @@ This isn't a new concept on its surface. In fact, [Snowden actually used a deadm
 
 ### public audience IPFS, Ethereum, and trust models
 
-It really comes down to trust models. The initial release of killcord specifically focuses on ***public audience disclosures***. The reason killcord uses IPFS and Ethereum is the resiliency and anti-censorship guarantees each service offers. 
+It really comes down to trust models. The initial release of killcord specifically focuses on **_public audience disclosures_**. The reason killcord uses IPFS and Ethereum is the resiliency and anti-censorship guarantees each service offers.
 
 With IPFS, once data is added to the network, it is virtually undeletable, unless every node participating in seeding the data is taken off-line (or the seed is universally purged). When it comes to resiliency, IPFS truly shines. In the case of killcord, you could actually run N number of IPFS nodes specifically configured to host the seed for the killcord project on a wide range of hardware, from Raspberry Pis to cloud providers. As long as the location of those nodes remains hard to shut down, the IPFS storage for killcord remains incredibly resilient. In the hypothetical Snowden example, spreading the IPFS seed nodes across multiple regions around the world and, even better, encouraging the community to seed the data as well, would add to the resiliency of the availability of the payload. You can think of IPFS as a really interesting new take on BitTorrent-style seeding.
 
@@ -34,9 +34,9 @@ Ethereum is used as a "trustless" state backend for the killcord project. For ki
 
 With Ethereum, you can write "backend code" that is stored on the blockchain; this means that the code is wide-open to the public. It also means that variable state is recorded to the blockchain. This is useful when you need a trustless guarantee that the response from a `getLastCheckin` function holds the accurate answer. It also means that once a payload is uploaded to IPFS and the decryption key is recorded to the blockchain, it can't be deleted without taking down the seed from the IPFS network and the blockchain on the Ethereum network.
 
-The autonomous part of killcord is based on the publisher tooling. This is a low-privileged account that uses the backend to publish the decryption key in the case that the project owner stops checking in. Because the publisher holds the secret decryption key, as well as the credentials to access the backend, where it runs needs to be protected and resilient as well. 
+The autonomous part of killcord is based on the publisher tooling. This is a low-privileged account that uses the backend to publish the decryption key in the case that the project owner stops checking in. Because the publisher holds the secret decryption key, as well as the credentials to access the backend, where it runs needs to be protected and resilient as well.
 
-Because the publisher runs privately with no external interaction, it can run from any internet-connected device that can run Unix. This means a publisher could run from a Raspberry Pi, AWS Lambda, a docker container on your personal computer, or in a data center in Iceland. It doesn't actually matter where it runs as long as it is trusted. Of course, the more publishers that are operating, the less likely the publisher is to fail. 
+Because the publisher runs privately with no external interaction, it can run from any internet-connected device that can run Unix. This means a publisher could run from a Raspberry Pi, AWS Lambda, a docker container on your personal computer, or in a data center in Iceland. It doesn't actually matter where it runs as long as it is trusted. Of course, the more publishers that are operating, the less likely the publisher is to fail.
 
 ### what's next
 
@@ -52,7 +52,7 @@ With private audience features, a project owner will want to identify their risk
 
 ### easier install tools
 
-Though the killcord cli tool is pretty easy to install, getting a killcord project set up is still a multistep process, and getting a solid publisher in place is not trivial. I'm continuing to work on tools to make this easier to understand and simpler to deploy and maintain. 
+Though the killcord cli tool is pretty easy to install, getting a killcord project set up is still a multistep process, and getting a solid publisher in place is not trivial. I'm continuing to work on tools to make this easier to understand and simpler to deploy and maintain.
 
 ### GUI
 

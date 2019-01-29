@@ -7,9 +7,9 @@ draft: false
 > Anything that prevents you from being friendly, a good neighbor, is a terror tactic.
 > -- Richard Stallman
 
-You might have noticed this site is [uncopyrighted](https://nomasters.io/uncopyright/), and I thought I'd explore a bit my reasoning behind my decision and the underlying principles that brought me to declare that all content on this site is in the public domain. 
+You might have noticed this site is [uncopyrighted](https://nomasters.io/uncopyright/), and I thought I'd explore a bit my reasoning behind my decision and the underlying principles that brought me to declare that all content on this site is in the public domain.
 
-The modern concept of intellectual property is puzzlingly complex. The topic operates on certain assumptions about human nature, innovation, and the role of the state in the market that I feel are worth questioning, and, if you are willing to follow me down the rabbit hole, ones worth opting out of. 
+The modern concept of intellectual property is puzzlingly complex. The topic operates on certain assumptions about human nature, innovation, and the role of the state in the market that I feel are worth questioning, and, if you are willing to follow me down the rabbit hole, ones worth opting out of.
 
 Before we dive into the topic of copyright and the public domain, I'd recommend reading the [criticisms section of intellectual property on Wikipedia](https://en.wikipedia.org/wiki/Intellectual_property#Criticisms). It holds a rich set of knowledge from important thinkers on the topic, such as [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) and [Lawrence Lessig](https://en.wikipedia.org/wiki/Lawrence_Lessig).
 
@@ -25,7 +25,7 @@ There is no doubt that both individuals and corporations have made great fortune
 
 It's important to note that modern tech company IT infrastructures, cloud computing providers, and the Android operating system wouldn't be possible without Linux. Arguably an entire generation of innovation stands on the shoulders of the amazing collaborative work that is free and open source software.
 
-[Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), creator and maintainer of Linux, has never charged a penny for his work and yet he's found a community deeply committed to his success as a creator. As of this writing, his net worth is [over $150 million](https://www.celebritynetworth.com/richest-businessmen/linus-torvalds-net-worth/).
+[Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), creator and maintainer of Linux, has never charged a penny for his work and yet he's found a community deeply committed to his success as a creator. As of this writing, his net worth is [over \$150 million](https://www.celebritynetworth.com/richest-businessmen/linus-torvalds-net-worth/).
 
 ### the public domain
 

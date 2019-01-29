@@ -7,7 +7,7 @@ draft: false
 > Boring is an attitude, not the truth. Possibility is where you decide it is.
 > -- Seth Godin
 
-I think we, as humans, have a natural inclination to want to avoid boredom. And it's easier now than ever to reach for the dopamine-infused mental junk food in an attempt to satiate our desires. It's hard to resist when corporations pour endless amounts of money into building games, apps, platforms, and media by [hiring scientists to create systems to modify our behavior and trigger addiction](https://www.1843magazine.com/features/the-scientists-who-make-apps-addictive). 
+I think we, as humans, have a natural inclination to want to avoid boredom. And it's easier now than ever to reach for the dopamine-infused mental junk food in an attempt to satiate our desires. It's hard to resist when corporations pour endless amounts of money into building games, apps, platforms, and media by [hiring scientists to create systems to modify our behavior and trigger addiction](https://www.1843magazine.com/features/the-scientists-who-make-apps-addictive).
 
 In truth, I don't think that the inclination is really about avoiding boredom at all costs. I think that the inclination is to do something, to feel something, to participate, to engage. There is the low effort path: the dopamine hit of instant gratification, and there is high effort path: the slow release of serotonin that comes from engaging in something deeply interesting and fulfilling.
 
@@ -34,5 +34,3 @@ Personally, I spend a considerable amount of time dedicated to learning new thin
 ### conclusion
 
 Make time to try boring, tedious, and difficult stuff you aren't sure you'll like. At worst, you don't get a lot out of it, but on the bright side you've avoided the addictive boredom-avoiding time wasters that would have otherwise filled that time. At best, you'll discover a happy little accident of a topic or hobby that takes you down a rabbit hole of new self-discovery. These random joys can't be predicted, but they can be cultivated through a raw numbers game. The more comfortable you get with making yourself uncomfortable, the more opportunities you'll have for the universe to pleasantly surprise you.
-
-

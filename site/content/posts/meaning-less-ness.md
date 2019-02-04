@@ -1,7 +1,7 @@
 ---
 title: "meaning-less-ness"
-date: 2019-01-29T23:15:49-06:00
-draft: true
+date: 2019-02-03T23:15:49-06:00
+draft: false
 ---
 
 I've been thinking a lot about [emergence](https://en.wikipedia.org/wiki/Emergence) lately. Maybe it's the [online cryptography class](https://www.coursera.org/learn/crypto) I recently completed, the ideas in [Godel's Proof](https://www.goodreads.com/book/show/695429.G_del_s_Proof?from_search=true) still fresh in my mind, or recently diving deeper into trying to understand [quaternions](https://eater.net/quaternions), but I’ve been dwelling on thoughts about the emergence of meaning from seeming meaningless-ness.

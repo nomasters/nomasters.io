@@ -16,7 +16,7 @@ Design goals:
 - user controlled **strategies** with per-chat swappable backends
 - sane and modern cryptographic defaults
 
-So who is Handshake for? The honest answer, up to this point is ***me*** and a couple of folks who I've working through early prototypes. But, I think we live in interesting times for this stuff. I think there are scenarios in which having ready-to-go out-of-band tooling is important. I'd love input and feedback. I'm hoping there are folks out there that would appreciate a simple to use tool that takes respecting privacy and security to the n-th degree. That is what handshake aims to do, first and foremost. In some ways `handshake` marries some old WW2 era ideas like [one-time pads](https://en.wikipedia.org/wiki/One-time_pad) with very modern tooling like QR codes, mobile devices, and [NaCl crypto](https://nacl.cr.yp.to/).
+So who is Handshake for? The honest answer, up to this point is ***me*** (and a small group of folks who I've been working through early prototypes with). But, I think we live in interesting times for this stuff. I think there are scenarios in which having ready-to-go out-of-band tooling is important. I'd love input and feedback. I'm hoping there are folks out there that would appreciate a simple to use tool that takes respecting privacy and security to the n-th degree. That is what handshake aims to do, first and foremost. In some ways `handshake` marries some old WW2 era ideas like [one-time pads](https://en.wikipedia.org/wiki/One-time_pad) with very modern tooling like QR codes, mobile devices, and [NaCl crypto](https://nacl.cr.yp.to/).
 
 I guess I should also outline what `handshake` isn't designed to be:
 

@@ -60,7 +60,7 @@ I'd love to explore some super tin-foil hat hardware that doesn't run iOS or And
 
 #### Exploring Post-Quantum Readiness (PQR)
 
-One of the design goals for `handshake` is to be post-quantum ready (PQR). We are well on our way to make this claim as far as message integrity goes due to using an off-line handshake and hash-based 256 bit symmetric cryptography for messages, but we can't currently make this claim as far as the rendezvous mutable storage goes. It relies on `ed25519` signatures which will potentially be vulnerable to a sufficiently powerful general purpose quantum computer. I'd love to get my hands on something like [SPHINCS](https://sphincs.cr.yp.to/) and use a ed25519 + SPHINCS multisig or dabble in what [Google is doing with NewHope + X25519](https://www.imperialviolet.org/2018/04/11/pqconftls.html).
+One of the design goals for `handshake` is to be post-quantum ready (PQR). We are well on our way to make this claim as far as message integrity goes due to using an off-line handshake and hash-based 256 bit symmetric cryptography for messages, but we can't currently make this claim as far as the rendezvous mutable storage goes. It relies on `ed25519` signatures which will potentially be vulnerable to a sufficiently powerful general purpose quantum computer. I'd love to get my hands on something like [SPHINCS+](https://sphincs.org/) and use an ed25519 plus SPHINCS+ multisig or dabble in something like what [Google is doing with NewHope + X25519](https://www.imperialviolet.org/2018/04/11/pqconftls.html).
 
 #### Metadata, OpSec, and Networks
 

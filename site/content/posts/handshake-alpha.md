@@ -1,5 +1,5 @@
 ---
-title: "Handshake: a peculiar chat experiment"
+title: "handshake: a peculiar chat experiment"
 date: 2019-04-04T21:26:27-06:00
 draft: false
 ---

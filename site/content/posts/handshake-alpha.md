@@ -1,7 +1,7 @@
 ---
 title: "Handshake: a peculiar chat experiment"
 date: 2019-04-04T21:26:27-06:00
-draft: true
+draft: false
 ---
 
 Today I'm excited to share an early prototype of a strange chat experiment that I've been quietly <del>obsessing over</del> working on. I'm calling it [handshake](https://github.com/nomasters/handshake).

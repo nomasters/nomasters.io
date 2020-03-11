@@ -18,6 +18,7 @@ workflows:
     jobs:
       - hugo/build:
           source: site/
+          html-proofer: false
       - deploy:
           context: org-global
           filters:

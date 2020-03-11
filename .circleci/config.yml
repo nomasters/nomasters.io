@@ -1,21 +1,27 @@
-version: 2
+version: 2.1
+orbs:
+  aws-cli: circleci/aws-cli@0.1.22
+  hugo: circleci/hugo@0.4.1
 jobs:
-  build:
+  deploy:
     docker:
-      - image: circleci/python:2.7.14-stretch
-    working_directory: ~/repo
+      - image: cibuilds/base
+    executor: aws-cli/default
     steps:
+      - attach_workspace:
+          at: repo
       - checkout
-      - run: wget https://github.com/gohugoio/hugo/releases/download/v0.34/hugo_0.34_Linux-64bit.deb
-      - run: sudo dpkg -i hugo_0.34_Linux-64bit.deb
-      - run: sudo pip install awscli
       - run: scripts/deploy.sh
 workflows:
   version: 2
   build:
     jobs:
-      - build:
+      - hugo/build:
+          source: site/
+      - deploy:
           context: org-global
           filters:
             branches:
               only: master
+          requires:
+            - hugo/build

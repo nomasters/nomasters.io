@@ -10,8 +10,7 @@ jobs:
     steps:
       - attach_workspace:
           at: repo
-      - checkout
-      - run: scripts/deploy.sh
+      - run: cd repo && ./scripts/deploy.sh
 workflows:
   version: 2
   build:

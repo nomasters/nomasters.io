@@ -13,9 +13,7 @@ jobs:
       - checkout
       - attach_workspace:
           at: site
-      - run: ls -alh
-      - run: ls -alh site
-      # - run: scripts/deploy.sh
+      - run: scripts/deploy.sh
 workflows:
   version: 2
   build:

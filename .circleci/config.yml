@@ -5,7 +5,7 @@ orbs:
 jobs:
   deploy:
     docker:
-      - image: cibuilds/base
+      - image: circleci/python:3.7
     executor: aws-cli/default
     working_directory: ~/repo
     steps:

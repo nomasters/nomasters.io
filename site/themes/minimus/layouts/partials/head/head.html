@@ -2,4 +2,6 @@
   {{ partial "head/meta" . }}
   <title>{{ partial "data/title" . }}</title>
   <link rel='canonical' href='{{ .Permalink }}'>
+  <link href="https://nomasters.io/posts/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ partial "head/includes" . }}
 </head>

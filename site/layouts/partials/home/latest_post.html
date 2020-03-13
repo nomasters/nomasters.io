@@ -1,4 +1,4 @@
-{{ range first 1 (where .Data.Pages "Section" "posts") }}
+{{ range first 1 (where .Site.Pages "Section" "posts") }}
 <article class='entry'>
   {{ partial "entry/header" . }}
   {{ partial "entry/cover" . }}

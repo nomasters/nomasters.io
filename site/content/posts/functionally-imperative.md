@@ -1,5 +1,5 @@
 ---
-title: "a new project: functionally imperative"
+title: "functionally imperative"
 date: 2021-07-20T09:23:00-06:00
 draft: false
 ---

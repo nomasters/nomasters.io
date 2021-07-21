@@ -1,11 +1,9 @@
 version: 2.1
 orbs:
-  aws-cli: circleci/aws-cli@0.1.22
-  hugo: circleci/hugo@0.4.1
+  aws-cli: circleci/aws-cli@2.0.3
+  hugo: circleci/hugo@1.2.2
 jobs:
   deploy:
-    docker:
-      - image: circleci/python:3.7
     executor: aws-cli/default
     working_directory: ~/repo
     steps:

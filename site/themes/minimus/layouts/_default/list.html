@@ -12,11 +12,7 @@
             {{- print ": " -}}
           </span>
           {{- end -}}
-          {{- if eq .Data.Singular "author" -}}
-            {{- partial "data/author/displayName" . -}}
-          {{- else -}}
-            {{- .Title -}}
-          {{- end -}}
+          {{- .Title -}}
         </h1>
 
         {{ partial "header/subtitle" . }}

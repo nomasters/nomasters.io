@@ -1,6 +1,6 @@
 ---
 title: "goodbye keybase"
-date: 2021-03-25T08:00:00-06:00
+date: 2022-03-25T08:00:00-06:00
 draft: false
 ---
 

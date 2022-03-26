@@ -22,3 +22,5 @@ terraform/.terraform/
 *.tfstate.backup
 
 ideas.md
+
+.DS_Store

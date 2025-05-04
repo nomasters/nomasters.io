@@ -1,9 +1,0 @@
-{{ range first 1 (where .Site.Pages "Section" "posts") }}
-<article class='entry'>
-  {{ partial "entry/header" . }}
-  {{ partial "entry/cover" . }}
-  {{ partial "entry/toc" . }}
-  {{ partial "entry/content" . }}
-  {{ partial "entry/footer" . }}
-</article>
-{{ end }}

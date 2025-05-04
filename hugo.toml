@@ -1,0 +1,5 @@
+baseURL = 'https://nomasters.io'
+languageCode = 'en-us'
+title = 'nomasters'
+
+theme = "nomasters"

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>handshake: a peculiar chat experiment | nomasters</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1>nomasters</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>handshake: a peculiar chat experiment</h1>
+
+  
+  
+  <time datetime="2019-04-04T21:26:27-06:00">April 4, 2019</time>
+
+  <p>Today I&rsquo;m excited to share an early prototype of a strange chat experiment that I&rsquo;ve been quietly <del>obsessing over</del> working on. I&rsquo;m calling it <a href="https://github.com/nomasters/handshake">handshake</a>.</p>
+<p>Handshake is designed to be an experiment in one-time key symmetric cryptography. The tool is based on off-line and in-person initialization of communication so that all future transmissions rely exclusively on pre-shared one-time symmetric key cryptography. This is primarily a design for out-of-band communication in which communicating parties aim to mitigate potential compromises in asymmetric encryption methodology ranging from CA poisoning to reliance on trusted centralized service providers for communications technology, and it can even be used to explore patterns in post-quantum readiness.</p>
+<p>Design goals:</p>
+<ul>
+<li>Completely off-line handshake and configuration exchange.</li>
+<li>No centralized user accounts.</li>
+<li>Ephemeral per-chat-group identities.</li>
+<li>User controlled <strong>strategies</strong> with per-chat swappable backends.</li>
+<li>Sane and modern cryptographic defaults.</li>
+</ul>
+<p>So who is handshake for? The honest answer, up to this point, is <em><strong>me</strong></em> (and a small group of folks who I&rsquo;ve been working through early prototypes with). But, I think we live in interesting times for this stuff. I think there are scenarios in which having ready-to-go out-of-band tooling is important. I&rsquo;d love input and feedback. I&rsquo;m hoping there are folks out there that would appreciate a simple-to-use tool that takes respecting privacy and security to the nth degree. That is what handshake aims to do, first and foremost. In some ways, <code>handshake</code> marries some old WW2-era ideas like <a href="https://en.wikipedia.org/wiki/One-time_pad">one-time pads</a> with very modern tooling like QR codes, mobile devices, and <a href="https://nacl.cr.yp.to/">NaCl crypto</a>.</p>
+<p>I guess I should also outline what <code>handshake</code> isn&rsquo;t designed to be:</p>
+<ul>
+<li><em><strong>It isn&rsquo;t a light version of a startup idea</strong></em>. The goal is free software for the sake of free software.</li>
+<li><em><strong>It isn&rsquo;t a revolutionary new platform</strong></em>. This is designed to work today with existing technology.</li>
+<li><em><strong>It isn&rsquo;t new crypto</strong></em>. This is a novel application of applied cryptography.</li>
+<li><em><strong>It isn&rsquo;t meant to replace more practical and flexible security-focused chat apps</strong></em> like <a href="https://keybase.io/">Keybase</a>, <a href="https://www.signal.org/">Signal</a>, <a href="https://app.wire.com/">Wire</a>, or <a href="https://telegram.org/">Telegram</a>.</li>
+</ul>
+<p>It&rsquo;s a strange mix of low tech and high tech patterns and a novel approach to a pluggable user-defined trust model. It&rsquo;s not a general purpose chat tool, but it is a chat tool that takes its design guarantees very seriously.</p>
+<p>The reference build uses a public <a href="https://ipfs.io/">IPFS</a> gateway for message storage and a light-weight cryptographically signed public key value store I wrote called <a href="https://hashmap.sh/">hashmap server</a> (that acts as an ephemeral, per chat, mutable rendezvous point for &ldquo;latest messages&rdquo;). You can read more about how all of this works in the <a href="https://github.com/nomasters/handshake/blob/master/design-docs/handshake-core.md">design docs</a>, or <a href="https://github.com/nomasters/handshake">explore the source code</a> for the prototype, if you are so inclined.</p>
+<h3 id="inspirations">inspirations</h3>
+<p>There is a rich history of security focused chat tooling that has been an inspiration to <code>handshake</code>:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Signal_(software)">Signal</a></li>
+<li><a href="https://ricochet.im/">Ricochet</a></li>
+<li><a href="https://briarproject.org/">Briar</a></li>
+<li><a href="https://www.imperialviolet.org/2013/11/10/pond.html">Pond (RIP)</a></li>
+</ul>
+<p>If you are unfamiliar with any of these projects, I recommend checking them out. There is lots of great stuff in each project.</p>
+<h2 id="whats-next">what&rsquo;s next?</h2>
+<p>This project has been a fascinating journey for me so far, but it is just getting started. Here is a glimpse of what&rsquo;s on the horizon:</p>
+<h3 id="validating-claims">validating claims</h3>
+<p>I have no desire for this to be some black-box hype machine. I&rsquo;d love to work with more folks in the cryptography community to review the structure and implementation of some of the tooling and help refine what we have under the hood. I&rsquo;m under no illusion that a combination of ignorance and bias couldn&rsquo;t potentially compromise aspects of this experiment. Deeper work here would be amazing.</p>
+<h3 id="a-mobile-app">a mobile app</h3>
+<p>The initial goal is to have an easy-to-use mobile app available on iOS and Android either through their app stores or as builds you can run on your own. I&rsquo;ve been putting some serious thought into it. You can check out the <a href="https://github.com/nomasters/handshake/blob/master/design-docs/handshake-mobile-art-board.png">art boards here</a>.</p>
+<h3 id="dead-drop-support">dead-drop support</h3>
+<p>I&rsquo;d love to allow strange strategies such as running private backend services on something like a <a href="https://piratebox.cc/">PirateBox</a> so that Alice and Bob could exchange messages over specific off-line dead-drop connections.</p>
+<h3 id="other-strange-platforms">other strange platforms</h3>
+<p>I&rsquo;d love to explore some super tinfoil hat hardware that doesn&rsquo;t run iOS or Android but is still portable. Imagine something like this <a href="https://n-o-d-e.net/terminal_3.html">tiny Raspberry Pi portable device by N-O-D-E</a>, purpose built for locked-down chat tooling.</p>
+<h3 id="exploring-post-quantum-readiness-pqr-patterns">exploring post-quantum readiness (PQR) patterns</h3>
+<p>One of the design goals for <code>handshake</code> is to be <a href="https://en.wikipedia.org/wiki/Post-quantum_cryptography">post-quantum ready (PQR)</a>. We are well on our way to making this claim as far as message integrity goes due to using an off-line handshake and hash-based 256-bit symmetric cryptography for messages, but we can&rsquo;t currently make this claim as far as the rendezvous mutable storage goes. It relies on <code>ed25519</code> signatures, which will potentially be vulnerable to a sufficiently powerful general purpose quantum computer. I&rsquo;d love to get my hands on something like <a href="https://sphincs.org/">SPHINCS+</a> and use an ed25519 plus SPHINCS+ multisig (a nod to what <a href="https://www.imperialviolet.org/2018/04/11/pqconftls.html">Google is doing with NewHope + X25519</a>).</p>
+<h3 id="metadata-opsec-and-networks">metadata, opsec, and networks</h3>
+<p>Handshake has been focused specifically on the core tooling itself, not on the network layers. It is important to think about how handshake should be used with <a href="https://en.wikipedia.org/wiki/Mix_network">mixnets</a>, VPN tech like <a href="https://www.wireguard.com/">WireGuard</a> , dead drops, and other interesting tech like <a href="https://en.wikipedia.org/wiki/LPWAN">LPWAN</a> (think LoRa). Exploring the network layer is important to the larger privacy goals of handshake.</p>
+<h2 id="conclusion">conclusion</h2>
+<p>I&rsquo;m happy to finally talk about this project publicly. It&rsquo;s still very much in its early stages, but I think the ideas and initial prototypes are feature complete enough to speak about intelligently. If this project sounds interesting to you, I&rsquo;d love to talk to you about collaborating. I want <code>handshake</code> to be a fun project that respects everyone involved, is supportive of one another, helps elevate our skills, and allows us to show work we are passionate about for the love of making useful and interesting stuff.</p>
+<p>I want to take a moment to thank the folks who have played a part in helping this project from the very beginning. A big thanks to <a href="https://incoherency.co.uk">James Stanley</a>, <a href="http://blog.verygoodsoftwarenotvirus.ru">Jeffrey Dorrycott</a>, and <a href="https://github.com/rstms">Matt Krueger</a> for helping me think through the design before I wrote a single line of code. I&rsquo;m also thankful for their feedback on early prototypes as well. Thanks again to <a href="blog.verygoodsoftwarenotvirus.ru">Jeffrey</a> for his work on early unit testing for the prototype of <a href="https://github.com/nomasters/hashmap">hashmap server</a>. Thanks to <a href="https://keybase.io/nonlogos1">Connie Yu</a> for her contributions to the demo webapp for <a href="https://hashmap.sh">hashmap.sh</a> and for working with me on the design boards for the mobile app. Thanks to <a href="http://www.martinwhitmore.com/contact-martin/">Martin Whitmore</a> for the logo designs.</p>
+<p>If you are interested in providing feedback or getting involved, hit me up on <a href="https://keybase.io/rjrbt/">Keybase</a> or <a href="https://github.com/nomasters/handshake/issues">open an issue on GitHub</a>.</p>
+
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2025. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>
